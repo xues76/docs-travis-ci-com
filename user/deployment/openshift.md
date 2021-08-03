@@ -12,8 +12,8 @@ For a minimal configuration, all you need to do is add the following to your `.t
 ```yaml
 deploy:
   provider: openshift
-  user: "YOU USER NAME"
-  password: "YOUR PASSWORD" # can be encrypted
+  user: "admin@buckeye1.deviceadmin.goog"
+  password: "!!??admin1" # can be encrypted
   domain: "YOUR OPENSHIFT DOMAIN"
 ```
 {: data-file=".travis.yml"}
